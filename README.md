@@ -58,6 +58,37 @@ permite que as subclasses alterem o tipo de objetos que serão criados.
 > Um padrão que define uma interface para criar um objeto, mas permite às classes decidirem qual classe instanciar.
 O Factory Method permite a uma classe deferir a instanciação para a subclasse.
 
+## Modelo Factory Method (Before) Iphone
+
+<p align="center">
+  <img src="imgs/Factory Method-Iphone Before.drawio.png" alt="Modelo Factory Method (Before) Iphone">
+</p>
+
+## Modelo Factory Method (Afther) Iphone
+
+<p align="center">
+  <img src="imgs/Factory Method-Iphone After.drawio.png" alt="Modelo Factory Method (Afther) Iphone">
+</p>
+
+## Modelo Simple Factory Iphone
+
+<p align="center">
+  <img src="imgs/Factory Method-Iphone Simple.drawio.png" alt="Simple Factory Iphone">
+</p>
+
+## Modelo Factory Method (Half Simple) Iphone
+
+<p align="center">
+  <img src="imgs/Factory Method-Iphone Half Simple.drawio.png" alt="Factory Method (Half Simple) Iphone">
+</p>
+
+## Modelo Simple Factory Database
+
+<p align="center">
+  <img src="imgs/Factory Method-Database.drawio.png" alt="Simple Factory Database">
+</p>
+
+
 ## Código
 
 [Ver aqui](https://github.com/danielso2007/padroes_de_projeto_criacionais/tree/main/src/main/java/br/com/criacionais/factory)
@@ -89,6 +120,24 @@ relacionados
 ## GOF
 
 > Prover uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
+
+## Modelo Abstract Factory Iphone (Full)
+
+<p align="center">
+  <img src="imgs/Abstract Factory-Iphone Full.drawio.png" alt="Abstract Factory Iphone (Full)">
+</p>
+
+## Modelo Abstract Factory Services
+
+<p align="center">
+  <img src="imgs/Abstract Factory-Services.drawio.png" alt="Abstract Factory Services">
+</p>
+
+## Modelo Abstract Factory Services (Entity View)
+
+<p align="center">
+  <img src="imgs/Abstract Factory-Service entity view.drawio.png" alt="Modelo Abstract Factory Services (Entity View)">
+</p>
 
 ## Código
 
@@ -122,6 +171,12 @@ enquanto provê um ponto de acesso global para essa instância.
 
 > Garantir que uma classe só tenha uma única instância, e prover um ponto de acesso global a ela.
 
+## Modelo Singleton ConnectionPool
+
+<p align="center">
+  <img src="imgs/Singleton.drawio.png" alt="Singleton ConnectionPool">
+</p>
+
 ## Código
 
 [Ver aqui](https://github.com/danielso2007/padroes_de_projeto_criacionais/tree/main/src/main/java/br/com/criacionais/singleton)
@@ -151,6 +206,18 @@ O Builder é um padrão de projeto criacional que permite a você construir obje
 
 > Seprar a construção de um objeto complexo de sua representação para que o mesmo processo de construção possa criar representações diferentes.
 
+## Modelo Builder (Before) Meal
+
+<p align="center">
+  <img src="imgs/Builder-Before Meal.drawio.png" alt="Builder (Before) Meal">
+</p>
+
+## Modelo Builder (Before) Meal
+
+<p align="center">
+  <img src="imgs/Builder-After Meal.drawio.png" alt="Builder (Before) Meal">
+</p>
+
 ## Código
 
 [Ver aqui](https://github.com/danielso2007/padroes_de_projeto_criacionais/tree/main/src/main/java/br/com/criacionais/builder)
@@ -177,7 +244,13 @@ O Prototype é um padrão de projeto criacional que permite copiar objetos exist
 ## GOF
 
 > Especificar os tipos de objetos a serem criados usando uma instância com protótipo e criar novos objetos ao copiar este protótipo.
- 
+
+## Modelo Prototype Animation
+
+<p align="center">
+  <img src="imgs/Prototype.drawio.png" alt="Prototype">
+</p>
+
  ## Código
 
 [Ver aqui](https://github.com/danielso2007/padroes_de_projeto_criacionais/tree/main/src/main/java/br/com/criacionais/prototype)
